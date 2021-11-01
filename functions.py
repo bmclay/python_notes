@@ -44,3 +44,30 @@ print(funct(3)())
 # Or
 x = funct(3)
 x() 
+
+# type()
+# Type is used to show what type specified data is
+# Python has the following data types built-in by default, in these categories:
+#
+# Text Type:	str
+# Numeric Types:	int, float, complex
+# Sequence Types:	list, tuple, range
+# Mapping Type:	dict
+# Set Types:	set, frozenset
+# Boolean Type:	bool
+# Binary Types:	bytes, bytearray, memoryview
+
+x = 20
+print (type(x))
+
+x = ["apple, cherry, banana"]
+print(type(x))
+
+x = "8k0si0n2"
+print(type(x))
+
+# input()
+# The input funcion is used to accept user input
+# You can assign their input to a variable like so:
+name = input('who are you? ')
+print("welcome", name)
