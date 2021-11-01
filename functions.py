@@ -71,3 +71,54 @@ print(type(x))
 # You can assign their input to a variable like so:
 name = input('who are you? ')
 print("welcome", name)
+
+
+# Unpack Operators
+# Defining a function to use with unpack operators.
+def func():
+    pass
+
+x = [1,54,5345,295,683345,3756,2854]
+y = [5,234,56,3221,675,345]
+
+print(x)
+# Unpack x. Take the values from the list and pass them to print as individual values.
+print(*x)
+
+print(y)
+# Unpack y
+print(*y)
+
+# Another example of the unpack operator
+def func(x, y):
+    print(x, y)
+# Pass a few pairs to the function
+pairs = [(1,2), (3,4)]
+# Then unpack them. takes 1,2 and 3,4 and unpacks them then passes the values to func
+for pair in pairs:
+    func(*pair)
+# pass a dictionary to func as an argument
+func(**{'x': 2, 'y':5})
+# double asterics ** are used for dictionaries, single asterics * used for tuples and lists
+
+# *args (arguments) and **kwargs(keyword arguments)
+# Allows you to pass an unlimited amount of arguments and keyword arguments.
+def func(*args, **kwargs):
+# When your print args and kwargs you will get a tuple that has all of the positional arguments (args) and all of the keyword arguments (kwargs)
+    print(args, kwargs)
+# Unpack args
+    print(*args)
+func(1,2,23,4,55,3,46,one=0, two=2004)
+
+
+# Defining scope and global
+x = 'Bill'
+
+def func(name):
+# Attemptint to change x to name here will not work, since it was assigned earlier as a global variable.
+    x = name
+
+print(x)
+func('changed')
+print(x)
+
