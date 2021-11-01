@@ -45,34 +45,6 @@ print(funct(3)())
 x = funct(3)
 x() 
 
-# type()
-# Type is used to show what type specified data is
-# Python has the following data types built-in by default, in these categories:
-#
-# Text Type:	str
-# Numeric Types:	int, float, complex
-# Sequence Types:	list, tuple, range
-# Mapping Type:	dict
-# Set Types:	set, frozenset
-# Boolean Type:	bool
-# Binary Types:	bytes, bytearray, memoryview
-
-x = 20
-print (type(x))
-
-x = ["apple, cherry, banana"]
-print(type(x))
-
-x = "8k0si0n2"
-print(type(x))
-
-# input()
-# The input funcion is used to accept user input
-# You can assign their input to a variable like so:
-name = input('who are you? ')
-print("welcome", name)
-
-
 # Unpack Operators
 # Defining a function to use with unpack operators.
 def func():
@@ -122,3 +94,57 @@ print(x)
 func('changed')
 print(x)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Builtins
+
+# type()
+# Type is used to show what type specified data is
+# Python has the following data types built-in by default, in these categories:
+#
+# Text Type:	str
+# Numeric Types:	int, float, complex
+# Sequence Types:	list, tuple, range
+# Mapping Type:	dict
+# Set Types:	set, frozenset
+# Boolean Type:	bool
+# Binary Types:	bytes, bytearray, memoryview
+
+x = 20
+print (type(x))
+
+x = ["apple, cherry, banana"]
+print(type(x))
+
+x = "8k0si0n2"
+print(type(x))
+
+# input()
+# The input funcion is used to accept user input
+# You can assign their input to a variable like so:
+name = input('who are you? ')
+print("welcome", name)
+
+# open()
+# tell python to work with a specific file and what we want to do with the file
+# open() returns a "file handle" - a variable used to perform operations on the file.
+
+# Using open()
+# # handle=open(filename, mode)
+# fhand = open('mbox.txt', 'r')
+# print(fhand)
