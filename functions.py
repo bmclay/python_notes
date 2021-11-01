@@ -6,7 +6,7 @@ def greeting():
 # You can define functions inside of functions if you want
     def slang():
         print('wuddup')
-# Then you can call the functions that you made
+# Then you can call the functions that you made. AKA invoking the function.
     slang()
 greeting()
 
