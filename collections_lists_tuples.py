@@ -61,3 +61,8 @@ friends = ['Josh', 'Adam', 'Eric', 'Greeny', 'Wes']
 for friend in friends :
     print('Hello there: ', friend)
 print('Done')
+
+# List Methods
+x = list()
+type(x)
+dir(x)
