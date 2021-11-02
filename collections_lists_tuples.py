@@ -56,7 +56,8 @@ print(a)
 a[0] = 5
 
 # Lists and definate loops are great together
+# Python has no comprehension of plural words, below I defined the list friends and the iteration variable friend:
 friends = ['Josh', 'Adam', 'Eric', 'Greeny', 'Wes']
 for friend in friends :
     print('Hello there: ', friend)
- print('Done')
+print('Done')
