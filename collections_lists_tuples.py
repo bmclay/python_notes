@@ -4,7 +4,8 @@
 # inside of the square brackets you can have a series of elements (some data type).
 
 # To define a list, create a variable and open up square brackets with some elements inside
-x = [4, True, 'hi']
+# Lists can contain values of different types, even other lists:
+x = [4, True, 'hi', [1, 2, 3], 'Adam']
 print(x)
 # To print the length of the list, use the len function
 print(len(x))
