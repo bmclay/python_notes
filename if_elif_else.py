@@ -7,10 +7,10 @@ x = input ('Name: ')
 # If this thing
     # Do that thing
 # Indentation is 4 spaces (not a typical tab). Most IDEs and text editors have this already set like this but you may have to go into settings to check it if you get tracebacks complaining about it.
-if x == 'Bill':
-    print('Hey Bill!')
-elif x == 'Joe':
-    print('Hey Joe')
+if x == 'Eric':
+    print('Hey Eric!')
+elif x == 'Wes':
+    print('Hey Wes')
 else:
     print('Hello new user')
 
