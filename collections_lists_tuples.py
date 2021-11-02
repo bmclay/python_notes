@@ -54,3 +54,9 @@ print(a)
 # You cant change the list. It's immutable
 # Example of trying to change the value of index position 1. This results in an error
 a[0] = 5
+
+# Lists and definate loops are great together
+friends = ['Josh', 'Adam', 'Eric', 'Greeny', 'Wes']
+for friend in friends :
+    print('Hello there: ', friend)
+ print('Done')
