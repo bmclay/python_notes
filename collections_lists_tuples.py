@@ -66,3 +66,22 @@ print('Done')
 x = list()
 type(x)
 dir(x)
+
+# Building a list from scratch
+# You can create an empty list and then through a series of append methods through the code you can build a list
+# Make an empty list
+stuff = list()
+# Append to the list throughout the code
+resteraunts = list()
+resteraunts.append('Mama Rosas')
+resteraunts.append('Pizza Joes')
+resteraunts.append('Burger Hut')
+resteraunts.append('Chop Shop')
+resteraunts.append('Upper Crust')
+# Make a definate loop for each item in the list and print it out
+for resteraunt in resteraunts :
+    print(resteraunt)
+print('All are Tasty')
+
+
+       
