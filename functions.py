@@ -1,5 +1,7 @@
-# Two types of functions. Ones that are builtin to python, and others that you define
-# To define a function, specify def and give it a name and action:
+"""
+Two types of functions. Ones that are builtin to python, and others that you define
+To define a function, specify def and give it a name and action:
+"""
 def greeting():
     print('Hello')
 
@@ -110,21 +112,21 @@ print(x)
 
 
 
+"""
+Builtins
 
-# Builtins
+type()
+Type is used to show what type specified data is
+Python has the following data types built-in by default, in these categories:
 
-# type()
-# Type is used to show what type specified data is
-# Python has the following data types built-in by default, in these categories:
-#
-# Text Type:	str
-# Numeric Types:	int, float, complex
-# Sequence Types:	list, tuple, range
-# Mapping Type:	dict
-# Set Types:	set, frozenset
-# Boolean Type:	bool
-# Binary Types:	bytes, bytearray, memoryview
-
+Text Type:	str
+Numeric Types:	int, float, complex
+Sequence Types:	list, tuple, range
+Mapping Type:	dict
+Set Types:	set, frozenset
+Boolean Type:	bool
+Binary Types:	bytes, bytearray, memoryview
+"""
 x = 20
 print (type(x))
 
