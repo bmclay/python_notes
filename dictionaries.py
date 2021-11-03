@@ -1,5 +1,7 @@
-# Dictionaries are a key value pair
-# Create the dictionary, assign it to a variable
+"""
+Dictionaries are a key value pair
+Create the dictionary, assign it to a variable
+"""
 x = {'key': 4}
 # Later on in the code you can print the variables associated value by specifying the key (I just named it key)
 print(x['key'])
